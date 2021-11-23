@@ -1,3 +1,4 @@
+#list is an object that can be manipulated
 t = ['a', 'b', 'c', 'd', 'e', 'f']
 a = t[1:3] #index 0 -> 2
 b = t[3:] #index 4 til end of array
