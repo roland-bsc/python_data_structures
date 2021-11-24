@@ -1,4 +1,4 @@
-numlist = list()
+numlist = list() #make an empty list called numlist
 while True:
     inp = input('Enter a number: ')
     if inp == 'done': break
