@@ -18,6 +18,8 @@ for line in handle:
 
 #print(email_counts)
 
-max_key = max(email_counts, key=email_counts.get) #find the key with the highest value using max() method
+#max_key = max(email_counts, key=email_counts.get) #find the key with the highest value using max() method
+#print(max_key, email_counts.get(max_key,0)) #print(key with highest value, get the value of the key using get() method
 
-print(max_key, email_counts.get(max_key,0)) #print(key with highest value, get the value of the key using get() method
+#max_key = max(email_counts, key=email_counts.get)
+print(max(email_counts, key=email_counts.get), email_counts.get(max(email_counts, key=email_counts.get),0))
